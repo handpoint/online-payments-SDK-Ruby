@@ -15,7 +15,7 @@ class Gateway
   @@coder = HTMLEntities.new
 
   def initialize(env, merchantId, merchantSecret, 
-    directUrl = "https://gateway.handpoint.com/direct/", hostedUrl = "https://gateway.handpoint.com/hosted/",
+    directUrl = "https://commerce-api.handpoint.com/direct/", hostedUrl = "https://commerce-api.handpoint.com/hosted/",
     merchantPwd = nil, 
     proxyUrl = nil, proxyPort = nil)
 

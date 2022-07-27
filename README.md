@@ -28,7 +28,7 @@ This Ruby SDK provides an easy method to integrate with the payment gateway.
 Instantiate the Gateway object ensuring you pass in your Merchant ID and secret key.
 
 ```
-gateway = Gateway.new(env, "100856", "Circle4Take40Idea")
+gateway = Gateway.new(env, "155928", "m3rch4nts1gn4tur3k3y")
 ```
 
 This is a minimal object creation, but you can also override the default _direct_, _hosted_ and _merchant password_ fields, should you need to. The object also supports proxying if you require it. Take a look at gateway.rb to see the full method signatures
@@ -37,7 +37,7 @@ Once your object has been created. You create your request array, for example:
 
 ```
 reqFields = {
-      "merchantID" => "100856",
+      "merchantID" => "155928",
       "action" => "SALE",
       "type" => 1,
       "transactionUnique" => uniqid,

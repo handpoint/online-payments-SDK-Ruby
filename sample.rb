@@ -7,10 +7,9 @@ class SampleApp
   # THE BELOW WORKS FOR A SINGLE USER ONLY AND MAY PRESENT A SECURITY RISK
   @@threeDSRef = ""
 
-#Circle4Take40Idea
 
   def call(env)
-    gateway = Gateway.new(env, "100856", "Circle4Take40Idea")#, "https://test.3ds-pit.com/direct/", "https://test.3ds-pit.com/direct/")
+    gateway = Gateway.new(env, "155928", "m3rch4nts1gn4tur3k3y")#, "https://test.3ds-pit.com/direct/", "https://test.3ds-pit.com/direct/")
 
     req = Rack::Request.new(env)
 
